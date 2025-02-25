@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"github.com/nk-hung/go-ecommerce-backend-api/internal/routers"
 )
 
 func main() {
-	fmt.Println("Hello World")
+	r := routers.NewRoute()
+
+	r.Run(":8998")
 }
