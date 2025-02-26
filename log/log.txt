@@ -1,0 +1,2 @@
+{"level":"INFO","Lúc:":"2025-02-26T22:44:33.106+0700","msg":"Info log","line":1}
+{"level":"ERROR","Lúc:":"2025-02-26T22:44:33.106+0700","msg":"Error log","line":2}
