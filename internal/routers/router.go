@@ -14,7 +14,7 @@ func NewRoute() *gin.Engine {
 	{
 		v1.GET("/ping/:name", c.NewPongController().Pong)
 		v1.GET("/pong", c.NewUserController().GetUserById)
-		v1.POST("/user/1", Pong)
+		v1.POST("/user/1", c.NewUserController().GetUserById)
 		v1.PATCH("/ping", Pong)
 		v1.PUT("/ping", Pong)
 		v1.OPTIONS("/ping", Pong)
