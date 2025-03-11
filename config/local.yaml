@@ -1,0 +1,9 @@
+database:
+  host: "localhost"
+  port: 5432
+  user: "dbuser"
+  password: "dbpassword"
+  dbname: "myapp"
+
+server:
+  port: 8083
