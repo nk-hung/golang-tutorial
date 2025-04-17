@@ -1,9 +1,15 @@
-database:
-  host: "localhost"
-  port: 5432
-  user: "dbuser"
-  password: "dbpassword"
-  dbname: "myapp"
+databases:
+  - host: "localhost"
+    port: 5432
+    user: "dbuser"
+    password: "dbpassword"
+    dbname: "myapp"
+  - host: "localhost"
+    port: 5433
+    user: "dbuser"
+    password: "dbpassword"
+    dbname: "dbpayment"
 
 server:
   port: 8083
+  host: "localhost"

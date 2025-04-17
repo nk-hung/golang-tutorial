@@ -17,8 +17,8 @@ type Config struct {
 		Port     string `mapstructure:"port"`
 		User     string `mapstructure:"user"`
 		Password string `mapstructure:"password"`
-		Name     string `mapstructure:"name"`
-	} `mapstructure:"database"`
+		Name     string `mapstructure:"dbname"`
+	} `mapstructure:"databases"`
 }
 
 func main() {
@@ -42,5 +42,6 @@ func main() {
 	}
 
 	fmt.Println("Using config file:", config.Server.Port)
-	fmt.Println("Using config file:", config.Databases[0].Port)
+	fmt.Println("DB 0 port config file:", config.Databases[0].Port)
+	fmt.Println("DB 1 port config file:", config.Databases[1].Port)
 }
