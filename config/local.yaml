@@ -1,15 +1,12 @@
-databases:
-  - host: "localhost"
-    port: 5432
-    user: "dbuser"
-    password: "dbpassword"
-    dbname: "myapp"
-  - host: "localhost"
-    port: 5433
-    user: "dbuser"
-    password: "dbpassword"
-    dbname: "dbpayment"
-
 server:
   port: 8083
   host: "localhost"
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: passroot
+  dbName: dbdev
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifetime: 3600
