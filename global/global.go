@@ -1,7 +1,11 @@
 package global
 
-import "github.com/nk-hung/go-ecommerce-backend-api/pkg/setting"
+import (
+	"github.com/nk-hung/go-ecommerce-backend-api/pkg/logger"
+	"github.com/nk-hung/go-ecommerce-backend-api/pkg/setting"
+)
 
 var (
 	Config setting.Config
+	Logger *logger.LoggerZap
 )

@@ -10,3 +10,14 @@ mysql:
   maxIdleConns: 10
   maxOpenConns: 100
   connMaxLifetime: 3600
+logger:
+  logLevel: debug
+  logFilePath: "./storages/logs/log.txt"
+  sampling:
+    initial: 100
+    therehold: 1000
+  maxSize: 500 # MB
+  maxAge: 30 # days
+  maxBackups: 3
+  compress: true
+
