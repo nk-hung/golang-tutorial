@@ -1,0 +1,13 @@
+{"level":"INFO","Lúc: ":"2025-05-19T22:15:08.087+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:15:35.311+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:17:15.212+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:18:40.656+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:20:18.892+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:21:36.139+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:21:36.139+0700","caller":"initialize/mysql.go:23","msg":"MySQL config","config":{"Host":"127.0.0.1","Port":3306,"Username":"root","Password":"passroot","DbName":"dbdev","MaxIdleConns":10,"MaxOpenConns":100,"ConnMaxLifetime":3600}}
+{"level":"INFO","Lúc: ":"2025-05-19T22:23:05.568+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:23:05.568+0700","caller":"initialize/mysql.go:23","msg":"MySQL config","config":{"Host":"127.0.0.1","Port":3306,"Username":"root","Password":"passroot","DbName":"dbdev","MaxIdleConns":10,"MaxOpenConns":100,"ConnMaxLifetime":3600}}
+{"level":"INFO","Lúc: ":"2025-05-19T22:24:54.683+0700","caller":"initialize/run.go:14","msg":"Logger initialized","test":"logger ok"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:24:54.683+0700","caller":"initialize/mysql.go:23","msg":"MySQL config","config":{"Host":"127.0.0.1","Port":3306,"Username":"root","Password":"passroot","DbName":"dbdev","MaxIdleConns":10,"MaxOpenConns":100,"ConnMaxLifetime":3600}}
+{"level":"INFO","Lúc: ":"2025-05-19T22:24:54.685+0700","caller":"initialize/mysql.go:33","msg":"Connected to MySQL database successfully"}
+{"level":"INFO","Lúc: ":"2025-05-19T22:24:54.790+0700","caller":"initialize/mysql.go:55","msg":"Tables migrated successfully"}
